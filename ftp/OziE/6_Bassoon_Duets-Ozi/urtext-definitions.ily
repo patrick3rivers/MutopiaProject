@@ -1,0 +1,13 @@
+dolce = _\markup \italic "dolce"
+markDC = { }
+restStyle = \revert Staff.Rest.style
+rinforzando = _\markup \italic { rfz. }
+rinf = \rinforzando
+staccato = -.
+cAccOn = #(set-accidental-style 'default)
+cAccOff = #(set-accidental-style 'default)
+cresc = \cresc
+crescMark = _\markup \italic "cresc."
+F = \f
+P = \p
+FF = \ff
