@@ -6,6 +6,9 @@ part = \relative c' {
   \time 3/4
   \key g \major
   \tempo "Gratioso"
+  \set Timing.beamExceptions = #'()
+  \set Timing.beatBase = #1/4
+  \set Timing.beatStructure = 1,1,1,1
   \repeat segno 2 {
     | r4\P g d
     | e4. fis8 g a
@@ -17,7 +20,7 @@ part = \relative c' {
     | b'4.\F a8 c fis,
     | a4 ( g8 ) a b c
     | d4. c8 e a, | c4 ( b8 ) g e' d
-    | cis4\prall d8 a d cis
+    | cis4\prall d8 a d c
     | b4\prall c8 gis a b
     | c8 d e c a fis
     | g16\F b d b d4 ~ d16 c b a

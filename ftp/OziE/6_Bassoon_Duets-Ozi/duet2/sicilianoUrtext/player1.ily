@@ -42,7 +42,7 @@ part = \relative c' {
         | a8 a16 c a c bes8 g16 bes g bes
         | a16\CresDot c bes a bes c d c bes c d e
         | f16\F e d c bes a g\prall fis g a bes d
-        | c8 d c bes a f
+        | c8 d c bes a g
         %% 29
         | f8\P r f e r c
         | f8 r f e r c
@@ -99,7 +99,7 @@ part = \relative c' {
         %% 69
         | g16 bes, c d e fis g4 r8
         | g16 fis g a bes a g f e d cis e
-        | a16 g a bes a g f a g f ees d
+        | a16 g a bes a g f a g f e d
         | g16 fis g a bes g a bes a g fis e
         %% 73
         | d16\P ( cis d cis d cis ) d4 r8

@@ -34,6 +34,7 @@ duetThree = \bookpart {
       {
 	\compressMMRests {
 	  \set Staff.instrumentName = "1."
+          \set Staff.midiInstrument = "bassoon"
 	  \restStyle
 	  \firstMovementPlayerOne
 	}
@@ -42,11 +43,16 @@ duetThree = \bookpart {
       {
 	\compressMMRests {
 	  \set Staff.instrumentName = "2."
+          \set Staff.midiInstrument = "bassoon"
 	  \restStyle
 	  \firstMovementPlayerTwo
 	}
       }
     >>
+    \midi {
+    }
+    \layout {
+    }
   }
   \score {
     \header {
@@ -58,6 +64,7 @@ duetThree = \bookpart {
       {
 	\compressMMRests {
 	  \set Staff.instrumentName = "1."
+          \set Staff.midiInstrument = "bassoon"
 	  \restStyle
 	  \secondMovementPlayerOne
 	}
@@ -66,11 +73,16 @@ duetThree = \bookpart {
       {
 	\compressMMRests {
 	  \set Staff.instrumentName = "2."
+          \set Staff.midiInstrument = "bassoon"
 	  \restStyle
 	  \secondMovementPlayerTwo
 	}
       }
     >>
+    \midi {
+    }
+    \layout {
+    }
   }
 }
 

@@ -40,12 +40,12 @@ part = \relative c' {
     %% 025
     | cis2 ( d8 ) d c d
     | dis2 ( e8 ) e d c
-    | bes a bes cis d e f d
-    | bes4 r r2
+    | b a b cis d e f d
+    | b  4 r r2
     %% 029
     | r8\P g ees4 r8 ees c4
     | r8 f d4 r8 d8 b4
-    | r8 bes g4 r8 d' bes g
+    | r8 b  g4 r8 d' b  g
     | c8 d ees4 r8 c ees g
     %% 033
     | aes2\rinf r8 c, ees g
@@ -54,20 +54,20 @@ part = \relative c' {
     | g4 r ees'4. d8
     %% 037
     | d8 c b c ees4.\F d8
-    | d8 c bes c d e f f
+    | d8 c b c d e f f
     | f8 ees d ees d c b c
   \override TupletBracket.bracket-visibility = ##t
   \tupletUp
     \tuplet 3/2 4 {
-      | bes8\dolce g fis 
+      | b8\dolce g fis 
   \omit TupletNumber
   \override TupletBracket.bracket-visibility = ##f
-      g d bes
+      g d b
     }
     g4 r
     %% 041
     \tuplet 3/2 {
-      | r8 g' fis g d bes 
+      | r8 g' fis g d b 
     }
     g4 r
     | \tuplet 3/2 {
@@ -84,19 +84,19 @@ part = \relative c' {
     g4 r
     %% 045
     \tuplet 3/2 {
-      | r8 g' fis g d' c bes a g f e d
-      | c c d e f g g\prall g a bes\prall a bes
-      | c8 e, f g a bes c\prall bes c d\prall c d
-      | e e dis e c bes c g fis g e d
+      | r8 g' fis g d' c b a g f e d
+      | c c d e f g g\prall g a b\prall a b
+      | c8 e, f g a b c\prall b c d\prall c d
+      | e e dis e c b c g fis g e d
     }
     %% 049
     | e1
     | f8 ( a g e ) f ( e ) e ( d )
-    | c8 d16 e f g a bes c8 e16 d c bes a g
+    | c8 d16 e f g a b c8 e16 d c b a g
     | f8 g16 a b c d e f8 d b f
     %% 053
     | e16 c d e f g a b c8 e16 d c b a g
-    | f8 g16 a bes c d e f8 d bes f
+    | f8 g16 a b c d e f8 d b f
     | e8 g'4 e c \cAccOn bes8 \cAccOff
     | a8 f'4 c a f8
     %% 057

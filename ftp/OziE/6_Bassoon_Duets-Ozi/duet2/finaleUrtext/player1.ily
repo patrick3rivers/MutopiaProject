@@ -80,7 +80,7 @@ part = \relative c' {
   | e16 f g a bes c bes g
   | a8 f'16 e d c bes a
   %% 73
-  | g16 a bes c d c d ees
+  | g16 a bes c d c d e
   | f4 r8 e
   | f8 e f e
   | f4 r8 g,
@@ -114,7 +114,7 @@ part = \relative c' {
   | bes,8 c d bes | ees2 | a,8 bes c a | d8 e fis d
   %% 109
   | g8\Cresc a bes a
-  | g8 fis \cAccOn ees \cAccOff e
+  | g8 f \cAccOn ees \cAccOff e
   \tupletUp
     \override TupletBracket.bracket-visibility = ##t
   | \tuplet 3/2 4 { f8 \cAccOn a \cAccOff c a c a }

@@ -32,7 +32,7 @@ part = \relative c' {
         %% 17
         | bes,8\P d f a, c f
         | g8 f e f4 r8
-        | c16_\CrescMark d e f g e f4 r8
+        | c16_\CrescMark d e f g e f4 r8 
         | c16 d e f g e f4 r8
         %% 21
         | r16 bes d bes g f e4. ~
@@ -42,7 +42,7 @@ part = \relative c' {
         %% 25
         | f8 f16 a f a g8 e16 g e g
         | f16\cresc a g f g a bes a g a bes g
-        | g4 a,8 bes4.
+        | a4 a,8 bes4.
         | c8\F bes' a g f e
         %% 29
         | f16 c f a c a bes g e c d e

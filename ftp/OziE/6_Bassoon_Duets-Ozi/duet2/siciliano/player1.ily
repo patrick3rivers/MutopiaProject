@@ -41,7 +41,7 @@ part = \relative c' {
     | a8 a16 c a c bes8 g16 bes g bes
     | a16\CresDot c bes a bes c d c bes c d e
     | f16\F e d c bes a g\prall fis g a bes d
-    | c8 d c bes a f
+    | c8 d c bes a g
     %% 29
     | f8\P r f e r c
     | f8 r f e r c

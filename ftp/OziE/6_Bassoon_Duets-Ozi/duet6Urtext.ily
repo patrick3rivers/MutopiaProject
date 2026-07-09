@@ -30,23 +30,29 @@ duetSix = \bookpart {
       piece=\firstMovementPiece
     }
     <<
-      \new Staff  
+      \new Staff
       {
-	\compressMMRests {
-	  \set Staff.instrumentName = "1."
-	  \restStyle
-	  \firstMovementPlayerOne
-	}
+        \compressMMRests {
+          \set Staff.instrumentName = "1."
+          \set Staff.midiInstrument = "bassoon"
+          \restStyle
+          \firstMovementPlayerOne
+        }
       }
-      \new Staff  
+      \new Staff
       {
-	\compressMMRests {
-	  \set Staff.instrumentName = "2."
-	  \restStyle
-	  \firstMovementPlayerTwo
-	}
+        \compressMMRests {
+          \set Staff.midiInstrument = "bassoon"
+          \set Staff.instrumentName = "2."
+          \restStyle
+          \firstMovementPlayerTwo
+        }
       }
     >>
+    \midi {
+    }
+    \layout {
+    }
   }
   \score {
     \header {
@@ -54,23 +60,29 @@ duetSix = \bookpart {
       breakbefore=##t
     }
     <<
-      \new Staff  
+      \new Staff
       {
-	\compressMMRests {
-	  \set Staff.instrumentName = "1."
-	  \restStyle
-	  \secondMovementPlayerOne
-	}
+        \compressMMRests {
+          \set Staff.instrumentName = "1."
+          \set Staff.midiInstrument = "bassoon"
+          \restStyle
+          \secondMovementPlayerOne
+        }
       }
-      \new Staff  
+      \new Staff
       {
-	\compressMMRests {
-	  \set Staff.instrumentName = "2."
-	  \restStyle
-	  \secondMovementPlayerTwo
-	}
+        \compressMMRests {
+          \set Staff.instrumentName = "2."
+          \set Staff.midiInstrument = "bassoon"
+          \restStyle
+          \secondMovementPlayerTwo
+        }
       }
     >>
+    \midi {
+    }
+    \layout {
+    }
   }
 }
 

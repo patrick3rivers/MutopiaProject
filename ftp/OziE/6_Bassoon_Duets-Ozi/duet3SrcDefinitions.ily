@@ -1,7 +1,7 @@
 \include "src-definitions.ily"
 \include "duet3Definitions.ily"
 
-allegraFirstBar = {}
+allegroFirstBar = {}
 allegroTempo =  \tempo \markup {
   \concat {
     "All"

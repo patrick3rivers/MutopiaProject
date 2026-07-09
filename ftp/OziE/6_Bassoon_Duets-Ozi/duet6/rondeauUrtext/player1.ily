@@ -4,7 +4,10 @@ part = \relative c' {
   \time 3/4
   \key g \major
   \tempo "Gratioso"
-  \repeat segno 2 {
+\set Timing.beamExceptions = #'()
+ \set Timing.beatBase = #1/4
+  \set Timing.beatStructure = 1,1,1,1
+\repeat segno 2 {
     b4.\dolce a8 c fis,
     | a4 ( g8 ) a b c
     | d4. c8 e a,

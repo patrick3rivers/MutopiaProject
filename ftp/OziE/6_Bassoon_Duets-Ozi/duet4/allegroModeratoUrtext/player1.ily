@@ -2,7 +2,7 @@ part = \relative c' {
   \clef bass
   \key d \minor
   \time 4/4
-  \allegroModeratoTempo
+  \tempo \markup \bold "Allegro Moderato"
   \partial 2.
   r8 c8\dolce c c c c
   %% 001
@@ -34,17 +34,17 @@ part = \relative c' {
     %% 021
     | r8 g\P e4 r8 e c4
     | r8 f8 d4 r8 d bes4
-    | r8 bes g4. f'8 e d
+    | r8 bes g4 ~ g8 f'8 e d
     | e4. d8 c\cresc e d e
     %% 025
     | f8 ( e f e ) f f e f
     | g8 fis g fis g c, d e
     | f4 r f8 g a f
-    | g8\F fis g fis g g a bes
+    | g8\F fis g fis g g a b
     %% 029
     | c4. g8 ees'4. c8
     | bes4. aes8 f4. b8
-    | d4. bes8 f'4. f,8
+    | d4. b  8 f'4. f,8
     | ees8 f g4 ees'4. d8
     %% 033
     | d8 c b c ees4. d8
@@ -99,11 +99,11 @@ part = \relative c' {
     | fis8\cresc r fis r fis r fis r
     | g4\F r g\P r
     | g4 r f8\F [ f ] g, [ g ]
-    | c8 d16 e f g a bes c8 e16 d c bes a g
+    | c8 d16 e f g a b c8 e16 d c b   a g
     %% 061
     | f8 g16 a b c d e f8 d b f
     | e16 c d e f g a b c8 e16 d c b a g
-    | f8 g16 a b c d e g8 d b f
+    | f8 g16 a b c d e f8 d b f
     | e8 g'4 e c bes8
     %% 065
     | a8 f'4 c a f8

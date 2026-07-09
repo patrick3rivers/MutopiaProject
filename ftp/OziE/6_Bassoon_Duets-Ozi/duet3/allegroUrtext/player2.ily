@@ -66,7 +66,7 @@ part = \relative c' {
   | g fis g f e d
   \override TupletBracket.bracket-visibility = ##t
   \tupletUp
-  | \tuplet 3/2 8 { c8 d bes } a4 g
+  | \tuplet 3/2 4 { c8 d bes } a4 g
   \omit TupletNumber
   \override TupletBracket.bracket-visibility = ##f  %% 49
   | f4\P r f 

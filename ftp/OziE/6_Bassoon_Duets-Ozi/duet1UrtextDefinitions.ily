@@ -47,7 +47,7 @@ allegroModeratoFagotTwoSecondRepeat =   {
     \bar ".|:"
   }
   \set Score.repeatCommands = #'((volta "2"))
-  \relative c {
+  \relative c' {
     | c,4 c' c r4
     \bar "|."
   }

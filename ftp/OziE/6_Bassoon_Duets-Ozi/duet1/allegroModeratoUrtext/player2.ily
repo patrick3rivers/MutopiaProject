@@ -22,7 +22,7 @@ part = \relative c' {
     | f2 e8 e' d c
     %% 13
     | b4.\rinforzando c16 d c8 c b a
-    | gis4.\rinforzando a16 b  a8 a gis \cAccOn f \cAccOff
+    | gis4.\rinforzando a16 b  a8 a g \cAccOn f \cAccOff
     | e8 g c e g ( f ) f ( e )
     | d8 ( g ges f e d des c )
     %% 17

@@ -170,7 +170,7 @@ part = \relative c' {
 	| d8\P r d\st cis\st
 	| d\st a\st f\st d\st
 	| a'8\st r d\st cis\st
-	| c8\st a\st f\st d\st
+	| d8\st a\st f\st d\st
 	%% 137
 	| a'16\P gis a gis a8 r
 	| r16 gis' a gis a8 r

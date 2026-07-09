@@ -1,5 +1,6 @@
 \include "duet4UrtextDefinitions.ily"
 
+fullScore=##t
 instrument = \markup ""
 \include "duet4/allegroModeratoUrtext/player1.ily"
 firstMovementPlayerOne=\part
@@ -34,6 +35,7 @@ duetFour = \bookpart {
       {
 	\compressMMRests {
 	  \set Staff.instrumentName = "1."
+          \set Staff.midiInstrument = "bassoon"
 	  \restStyle
 	  \firstMovementPlayerOne
 	}
@@ -42,11 +44,16 @@ duetFour = \bookpart {
       {
 	\compressMMRests {
 	  \set Staff.instrumentName = "2."
+          \set Staff.midiInstrument = "bassoon"
 	  \restStyle
 	  \firstMovementPlayerTwo
 	}
       }
     >>
+    \midi {
+    }
+    \layout {
+    }
   }
   \score {
     \header {
@@ -58,6 +65,7 @@ duetFour = \bookpart {
       {
 	\compressMMRests {
 	  \set Staff.instrumentName = "1."
+          \set Staff.midiInstrument = "bassoon"
 	  \restStyle
 	  \secondMovementPlayerOne
 	}
@@ -66,11 +74,16 @@ duetFour = \bookpart {
       {
 	\compressMMRests {
 	  \set Staff.instrumentName = "2."
+          \set Staff.midiInstrument = "bassoon"
 	  \restStyle
 	  \secondMovementPlayerTwo
 	}
       }
     >>
+    \midi {
+    }
+    \layout {
+    }
   }
 }
 

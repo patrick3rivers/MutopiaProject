@@ -25,14 +25,14 @@ part = \relative c' {
     | r8 c' a c bes16 a g f
     | e16 c d e f g a \cAccOn bes \cAccOff c\prall bes c e
     \override Beam.auto-knee-gap = #1.5
-    | d8 f e c g, b' | bes2 c8 r
+    | d8 f e c g, b' | b2 c8 r
     \revert  Beam.auto-knee-gap
     \mark \markup \fermata
     \bar ":|.|:"
     | r8 c a g fis16 a bes c | bes8 c\prall d16 c bes a bes a g f
     | e8 bes'8 g f e16 g a bes
     | a8 f a c f e
-    | d fis g f e16 c d e 
+    | d fis g f e16 c d e
     |f8 f, f' e d16 c bes a
     | g16 a bes d f,8 a g e | e2 ( f4 )
     \mark \markup \fermata
@@ -47,7 +47,7 @@ part = \relative c' {
     | ees'8 ( des c bes a c ) | des2. ~ | des8 ( c bes ) aes g bes
     | c2. ~ | c8 bes aes g f a
     | bes2.\cresc ~ | bes8 aes g4 f | e8\P ( \cAccOn des \cAccOff c bes aes g )
-    | f4 r r 
+    | f4 r r
     | \cAccOn des'8 \cAccOff f des c bes d
     | \cAccOn ees2. \cAccOff
     | c8 ees c bes aes c
@@ -74,18 +74,23 @@ part = \relative c' {
     | a8 c f4. e8
     | d8 g4 f8 e16 c d e
     | f8 ( e d c bes a )
+    \undo \omit TupletNumber
+    \once \override TupletBracket.bracket-visibility = ##t
+    \override TupletBracket.direction=#UP
     | \tuplet 3/2 { g8 bes d } f,4 \grace a8 g4 | g2 ( f4 )
+    \omit TupletNumber
     \bar ":|.|:"
-    | f,4\P r f' | e8 r c r f r | bes,4 r r 
+    | f,4\P r f' | e8 r c r f r | bes,4 r r
     | c4\F \tuplet 3/2 { f,8 a bes c d e }
     | f4\P r f | e4 r e | f4 g g,
-    | \tuplet 3/2 { c8\F e f g a b }  c8 r 
-    \tweak self-alignment-X #CENTER \textEndMark \markup \fermata 
-     \bar ":|.|:"
+    | \tuplet 3/2 { c8\F e f g a b }  c8 r
+%%    #(if (not fullScore) #{
+%%      \tweak self-alignment-X #CENTER \textEndMark \markup \fermata  #} )
+    \bar ":|.|:"
     | fis,4\P r d | g,4 r r | e'4 r c | f,4 r a
     | bes4 b c8 bes
     | a4 r a | bes c c,
-    | \tuplet 3/2 { f8\F a c f c a } f4    
-    \bar ":|." 
+    | \tuplet 3/2 { f8\F a c f c a } f4
+    \bar ":|."
   }
 }

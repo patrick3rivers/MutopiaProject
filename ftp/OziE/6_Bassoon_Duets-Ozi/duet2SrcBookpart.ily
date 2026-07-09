@@ -1,4 +1,4 @@
-duetTwo = \bookpart {
+duetTwoFirstMovement = \bookpart {
   \header {
     title = "Six Duos pour deux bassons"
     subtitle="Facsimili"
@@ -20,10 +20,12 @@ duetTwo = \bookpart {
       }
     }
   }
+}
+duetTwoSecondMovement= \bookpart {
   \score {
     \header {
       piece=\secondMovementPiece
-      breakbefore=##t
+      breakbefore=##f
     }
 
     \new Staff  

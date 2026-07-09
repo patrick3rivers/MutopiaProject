@@ -7,6 +7,6 @@ firstMovement=\part
 
 \include "duet2/finale/player2.ily"
 
-secondMovement=\part
+secondMovement= \part
 
 \include "duet2SrcBookpart.ily"
